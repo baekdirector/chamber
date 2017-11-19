@@ -7,7 +7,13 @@
 - 용어 위주의 적용 사례를 중심으로 작성예정
 
 ## 1. HTML
-
+| Tag name | Description |
+|head	|문서에 대한 정보를 담고 있는 tag|
+|body	|본문에 해당하는 tag|
+|title	|문서의 제목에 할당|
+|a| 	a href="http://www.google.co.kr">A tag 활용 </a>
+	 <a href="http://www.google.co.kr" target="_blank">A tag 새창을 열어서 링크 </a>
+	 <a href="http://www.google.co.kr" target="_self">A tag 기존 창에서 열어서 링크 </a>|
 
 ## 2. CSS
 
