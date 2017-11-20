@@ -22,6 +22,7 @@ img	|`<img src="https://s3-ap-northeast-2.amazonaws.com/opentutorials-user-file/
 input	|type으로 button, text, checkbox 등등 입력 필드를 만들어 낼 수 있다.
 div	|tag & tag를 그룹해서 css를 입히기 위해서 사용
 
+<br/><br/>
 ## 2. CSS
  Tag name | Description 
 ---------- | ----------
@@ -40,8 +41,19 @@ float	|web page layout 설정 컨텐츠들간을 나란히 배치시키는 것
 class 선택	|. (점)을 이용해서 선택
 
 
-
+<br/><br/>
 ## 3. Javascript
-
+ name | Description 
+---------- | ----------
+동적언어	|javascript를 서버에서 해석하지 않고 웹 브라우저에서 javascript를 해석해서 반영하기에 소스에 그대로 남아있다.
+document.write("xxx")|	화면 출력 (xxx)
+getElementById('user_input')|	id 읽어서 그 값을 가져온다.
+class	|tag들을 그룹핑을 하기 위해 사용
+className	|className을 입력할 수 있다.<br/> getElementById('xxxx').className='em' 
 
 ## 4. PHP
+ name | Description 
+---------- | ----------
+동적 언어	|html고 동일하게 동작, 서버side 언어이므로 php 에서 처리후 브라우저에 뿌려주므로 브라우저는 하는일이 없다.	웹브라우저는 웹서버에 a.php를 요청하고 웹서버는 php 엔진(interpriter)에게 a.php를 해석하라고 위임하게 되고 a.php 파일을 읽어서 해석해서 웹서버에 전달하고 브라우저에서는 나타내준다.
+echo	|값 출력
+`$_GET["받을 변수명"]`	|uri로 받을 수 있는 parameter 값을 변수로 받아서 처리가 가능
