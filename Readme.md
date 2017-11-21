@@ -57,3 +57,10 @@ className	|className을 입력할 수 있다.<br/> getElementById('xxxx').classN
 동적 언어	|html고 동일하게 동작, 서버side 언어이므로 php 에서 처리후 브라우저에 뿌려주므로 브라우저는 하는일이 없다.	웹브라우저는 웹서버에 a.php를 요청하고 웹서버는 php 엔진(interpriter)에게 a.php를 해석하라고 위임하게 되고 a.php 파일을 읽어서 해석해서 웹서버에 전달하고 브라우저에서는 나타내준다.
 echo	|값 출력
 `$_GET["받을 변수명"]`	|uri로 받을 수 있는 parameter 값을 변수로 받아서 처리가 가능
+file_get_contents | file내 정보 읽어오기<br/> file_get_contents('xxx')<br> ../1.php?name=bch&id=1<br/>echo `$_GET['name'].",".$_GET['id'];`
+empty |  값의 유무를 확인 (true/false)
+
+
+
+
+
