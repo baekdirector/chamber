@@ -15,13 +15,17 @@
   - MariaDB (Oracle의 정책에 반해 MySQL개발자가 나와서 새롭게 만듬)
     - MySQL == MariaDB
   - SQL(Structured Query Language)
-
-  - Database 동작 원리<br>
+  - Database 동작 원리<br>
   MySQL client(Php) <------------> MySQL Server (MySQL)<br>
           SELECT * FROM topic; (SQL 명령어)
-
-
+#### MySQL monitor
+  - command 창에서 실행 (C:\Bitnami\wampstack-5.6.30-3\mysql\bim
+  - mysql.exe 실행
+    ~~~
+    mysql -hlocalhost -uroot -p
+    ~~~
 
 # 명령어
 name | Description 
+---------- | ----------
 a | b
