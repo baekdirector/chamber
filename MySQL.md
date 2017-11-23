@@ -72,7 +72,7 @@ show tables;
 INSERT INTO `topic` (`id`, `title`, `description`, `author`, `created`) VALUES(1, 'About JavaScript', '~~~', 'egoing', '2015-03-31 12:14:00');
 ~~~
   - Table data 가져오기
-    - * : table colume에 해당
+    - '*' : table colume에 해당
 ~~~
 SELECT * FROM topci;
 SELECT title, author from topic;
