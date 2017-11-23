@@ -71,16 +71,19 @@ show tables;
 ~~~
 INSERT INTO `topic` (`id`, `title`, `description`, `author`, `created`) VALUES(1, 'About JavaScript', '~~~', 'egoing', '2015-03-31 12:14:00');
 ~~~
-  - Table data 가져오기
-    - '*' : table colume에 해당
+- Table data 가져오기
+  - `*` : table colume에 해당
+  - WHERE : 특정 조건 값을 조회
+  - ORDER BY ~ DESC: 특정 조건을 내림,오름 차순 정렬 처리
 ~~~
 SELECT * FROM topci;
 SELECT title, author from topic;
+SELECT id,title,author,created from topic WHERE id=3
+SELECT id,title,author,created from topic ORDER BY id DESC
 ~~~
 
- 
 - | MySQL monitor | mysqli
----- | ---- | ---- 
+---- | ---- | ----
 서버접속 | mysql -hlocalhost -uroot -p123456; | $conn = mysqli_connect("localhost", "root", "123456");
 DB 선택 |
 조회 |
