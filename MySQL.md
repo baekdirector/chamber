@@ -19,13 +19,21 @@
   MySQL client(Php) <------------> MySQL Server (MySQL)<br>
           SELECT * FROM topic; (SQL 명령어)
 #### MySQL monitor
-  - command 창에서 실행 (C:\Bitnami\wampstack-5.6.30-3\mysql\bim
+  - command 창에서 실행
+~~~
+C:\Bitnami\wampstack-5.6.30-3\mysql\bin
+~~~
   - mysql.exe 실행
-    ~~~
-    mysql -hlocalhost -uroot -p
-    ~~~
+~~~
+mysql -hlocalhost -uroot -p
+-h | mysql 서버의 주소 
+-u | mysql 서버의 비밀번호
+-p | 비밀번호를 입력받기
+~~~
+
+
 
 # 명령어
 name | Description 
----------- | ----------
-a | b
+---- | ----
+-h | mysql 서버의 주소 
