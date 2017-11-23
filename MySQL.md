@@ -78,6 +78,15 @@ SELECT * FROM topci;
 SELECT title, author from topic;
 ~~~
 
+ 
+- | MySQL monitor | mysqli
+---- | ---- | ---- 
+서버접속 | mysql -hlocalhost -uroot -p123456; | $conn = mysqli_connect("localhost", "root", "123456");
+DB 선택 |
+조회 |
+출력 |
+
+
 
 # 명령어
 name | Description
