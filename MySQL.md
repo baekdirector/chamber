@@ -27,10 +27,19 @@ C:\Bitnami\wampstack-5.6.30-3\mysql\bin
 ~~~
 mysql -hlocalhost -uroot -p
 -h | mysql 서버의 주소 
--u | mysql 서버의 비밀번호
+-u | mysql 서버의 사용자
 -p | 비밀번호를 입력받기
 ~~~
-
+  - Database 보기
+~~~
+show databases;
+~~~
+  - Database 생성
+~~~
+CREATE DATABASE opentutorials CHARACTER SET utf8 COLLATE utf8_general_ci;
+CHARACTER SET | 기본 character set을 설정
+COLLATE | 기본 collation 설정
+~~~
 
 
 # 명령어
