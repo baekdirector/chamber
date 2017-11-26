@@ -82,12 +82,12 @@ SELECT id,title,author,created from topic WHERE id=3
 SELECT id,title,author,created from topic ORDER BY id DESC
 ~~~
 
-- | MySQL monitor | mysqli
+1 | MySQL monitor | mysqli
 ---- | ---- | ----
 서버접속 | mysql -hlocalhost -uroot -p123456; | $conn = mysqli_connect("localhost", "root", "123456");
-DB 선택 |
-조회 |
-출력 |
+DB 선택 | use opentutorials; | mysqli_select_db($conn, 'opentutorials');
+조회 | SELECT * FROM topic; | $result = mysqli_query($conn, 'SELECT * FROM topic;');
+출력 | ++++++++++++++++++++++++++++++<br>+ id + title                 +<br>++++++++++++++++++++++++++++++<br>+  4 + Conditional           +<br>+  3 + Opeartor              +<br>+  2 + variable and constant +<br>+  1 + about javascript      +<br>++++++++++++++++++++++++++++++<br> | $row = mysqli_fetch_assoc($result);<br>$row['id'];<br>$row['title'];
 
 
 
