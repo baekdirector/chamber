@@ -15,8 +15,8 @@
   - MariaDB (Oracle의 정책에 반해 MySQL개발자가 나와서 새롭게 만듬)
     - MySQL == MariaDB
   - SQL(Structured Query Language)
-  - Database 동작 원리<br>
-  MySQL client(Php) <------------> MySQL Server (MySQL)<br>
+  - Database 동작 원리<br />
+  MySQL client(Php) <------------> MySQL Server (MySQL)<br />
           SELECT * FROM topic; (SQL 명령어)
   - msSQL Server
     - Database
@@ -87,7 +87,7 @@ SELECT id,title,author,created from topic ORDER BY id DESC
 서버접속 | mysql -hlocalhost -uroot -p123456; | $conn = mysqli_connect("localhost", "root", "123456");
 DB 선택 | use opentutorials; | mysqli_select_db($conn, 'opentutorials');
 조회 | SELECT * FROM topic; | $result = mysqli_query($conn, 'SELECT * FROM topic;');
-출력 | ++++++++++++++++++++++++++++++<br>+ id + title                 +<br>++++++++++++++++++++++++++++++<br>+  4 + Conditional           +<br>+  3 + Opeartor              +<br>+  2 + variable and constant +<br>+  1 + about javascript      +<br>++++++++++++++++++++++++++++++<br> | $row = mysqli_fetch_assoc($result);<br>$row['id'];<br>$row['title'];
+출력 | ++++++++++++++++++++++++++++++<br />+ id + title                 +<br />++++++++++++++++++++++++++++++<br />+  4 + Conditional           +<br />+  3 + Opeartor              +<br />+  2 + variable and constant +<br />+  1 + about javascript      +<br />++++++++++++++++++++++++++++++<br /> | $row = mysqli_fetch_assoc($result);<br />$row['id'];<br />$row['title'];
 
 
 
