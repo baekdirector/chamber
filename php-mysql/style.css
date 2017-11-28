@@ -1,0 +1,16 @@
+header {
+  border-bottom: 1px solid gray;
+  padding: 30px;
+}
+
+nav {
+  border-right: 1px solid gray;
+  float: left;
+  width: 175;
+  height: 450px;
+  padding: 20px;
+}
+
+nav li{
+  list-style:none;
+}
