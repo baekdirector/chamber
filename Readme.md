@@ -20,7 +20,9 @@ header	|기계들도 정보로서의 가치를 위해 간판에 해당하는 부
 article	|기계들도 정보로서의 가치를 위해 본문이라고 명시적으로 알수 있다.
 img	|`<img src="https://s3-ap-northeast-2.amazonaws.com/opentutorials-user-file/course/1/5641.png"/>`
 input	|type으로 button, text, checkbox 등등 입력 필드를 만들어 낼 수 있다.
+textarea | 입력할 정보가 많을 경우 사용
 div	|tag & tag를 그룹해서 css를 입히기 위해서 사용
+p | 단락을 
 
 <br/><br/>
 ## 2. CSS
