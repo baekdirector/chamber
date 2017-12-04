@@ -63,3 +63,4 @@ echo	|값 출력
 file_get_contents | file내 정보 읽어오기<br/> file_get_contents('xxx')<br> ../1.php?name=bch&id=1<br/>echo `$_GET['name'].",".$_GET['id'];`
 empty |  값의 유무를 확인 (true/false)
 `$_POST['받을 변수명']` | POST 방식으로 전송한 값을 받을 때 사용한다.
+header('Location: http://xxx') | redirection을 통해서 page 이동이 됨

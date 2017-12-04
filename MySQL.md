@@ -81,6 +81,10 @@ SELECT title, author from topic;
 SELECT id,title,author,created from topic WHERE id=3
 SELECT id,title,author,created from topic ORDER BY id DESC
 ~~~
+  - Table에 대한 값을 기술해 준다.
+~~~
+DESC topic
+~~~
 
 1 | MySQL monitor | mysqli
 ---- | ---- | ----
