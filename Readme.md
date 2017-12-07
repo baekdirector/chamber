@@ -65,3 +65,4 @@ empty |  값의 유무를 확인 (true/false)
 `$_POST['받을 변수명']` | POST 방식으로 전송한 값을 받을 때 사용한다.
 header('Location: http://xxx') | redirection을 통해서 page 이동이 됨
 exit; | php를 종료한다
+var_dump(x) | 배열뿐 아니라 객체까지 아주 자세하게 출력해준다. 
