@@ -3,6 +3,10 @@ header {
   padding: 30px;
 }
 
+header img {
+  float: right;
+  height: 100px;
+}
 nav {
   border-right: 1px solid gray;
   float: left;
@@ -13,4 +17,14 @@ nav {
 
 nav li{
   list-style:none;
+}
+
+#control {
+  float: right;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 500px;
 }
