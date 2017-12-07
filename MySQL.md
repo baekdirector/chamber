@@ -85,6 +85,12 @@ SELECT id,title,author,created from topic ORDER BY id DESC
 ~~~
 DESC topic
 ~~~
+- Table 을 결합하기 위함
+  - LEFT : Table 간 join의 기준을 왼쪽으로 잡아라
+  - JOIN : Table 간 연결
+~~~
+SELECT title,name FROM topic LEFT JOIN user ON topic.author = user.id
+~~~
 
 1 | MySQL monitor | mysqli
 ---- | ---- | ----
