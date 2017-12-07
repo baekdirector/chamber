@@ -64,3 +64,4 @@ file_get_contents | file내 정보 읽어오기<br/> file_get_contents('xxx')<br
 empty |  값의 유무를 확인 (true/false)
 `$_POST['받을 변수명']` | POST 방식으로 전송한 값을 받을 때 사용한다.
 header('Location: http://xxx') | redirection을 통해서 page 이동이 됨
+exit; | php를 종료한다
