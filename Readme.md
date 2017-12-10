@@ -66,3 +66,4 @@ empty |  값의 유무를 확인 (true/false)
 header('Location: http://xxx') | redirection을 통해서 page 이동이 됨
 exit; | php를 종료한다
 var_dump(x) | 배열뿐 아니라 객체까지 아주 자세하게 출력해준다. 
+htmlspecialchars | 특수 문자를 HTML 엔터티로 변환 <p> '<'(미만)은 '&lt;' <p> '>'(이상)은 '&gt;' 
