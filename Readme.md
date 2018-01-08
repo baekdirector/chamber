@@ -68,3 +68,8 @@ exit; | php를 종료한다
 var_dump(x) | 배열뿐 아니라 객체까지 아주 자세하게 출력해준다. 
 htmlspecialchars | 특수 문자를 HTML 엔터티로 변환 <p> '<'(미만)은 `'&lt;'` <p> '>'(이상)은 `'&gt;'` 
 strip_tags | 특정 태그만 남기고 삭제하거나 태그자체를 삭제함 `<p> strip_tags($test)`,  `strip_tags(`TEXT`, `유지할 태그`)`;  
+ 
+ 
+ 
+## 5. Library
+### - 중복해서 사용되는 로직을 재사용 할 수 있도록 부품화 (모듈화 ) 시킨 것               
